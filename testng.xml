@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Suite">
+  <test name="Test">
+ <classes>
+  <class name = "VGP.AddEmployee"></class>
+  		
+		<class name = "VGP.DeleteEmployee"></class>
+		
+		<class name = "VGP.EditEmployee"></class>   
+  </classes>
+      </test>
+      
+      
+      <test name = "Test1">
+      <classes>
+		<class name = "VGP.Filter_Chile_Country"></class>
+		
+		<class name = "VGP.Filter_Country_Cell_Department"></class>
+		
+		<class name = "VGP.Filter_Country_Cell"></class>
+		
+		<class name = "VGP.Filter_Mexico_Country"></class>
+				
+		<class name = "VGP.Filter_US_Country"></class>
+      </classes>
+       </test>
+      
+      
+      
+      
+</suite> <!-- Suite -->

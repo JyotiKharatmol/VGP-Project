@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 24.579 s <<< FAILURE! - in TestSuite
+AddEmployee(VGP.AddEmployee)  Time elapsed: 9.254 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 104.0.5112.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-VFKJ2SC9', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at VGP.AddEmployee.AddEmployee(AddEmployee.java:28)
+
+DeleteEmployee(VGP.DeleteEmployee)  Time elapsed: 1.997 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 104.0.5112.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-VFKJ2SC9', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at VGP.DeleteEmployee.DeleteEmployee(DeleteEmployee.java:34)
+
+EditEmployee(VGP.EditEmployee)  Time elapsed: 1.721 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 104.0.5112.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-VFKJ2SC9', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at VGP.EditEmployee.EditEmployee(EditEmployee.java:34)
+
+Clear(VGP.Filter_Chile_Country)  Time elapsed: 1.569 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 104.0.5112.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-VFKJ2SC9', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at VGP.Filter_Chile_Country.Clear(Filter_Chile_Country.java:24)
+
+Clear(VGP.Filter_Country_Cell_Department)  Time elapsed: 1.475 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 104.0.5112.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-VFKJ2SC9', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at VGP.Filter_Country_Cell_Department.Clear(Filter_Country_Cell_Department.java:24)
+
+Clear(VGP.Filter_Country_Cell)  Time elapsed: 1.998 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 104.0.5112.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-VFKJ2SC9', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at VGP.Filter_Country_Cell.Clear(Filter_Country_Cell.java:24)
+
+Clear(VGP.Filter_Mexico_Country)  Time elapsed: 1.637 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 104.0.5112.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-VFKJ2SC9', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at VGP.Filter_Mexico_Country.Clear(Filter_Mexico_Country.java:24)
+
+Clear(VGP.Filter_US_Country)  Time elapsed: 1.842 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 104.0.5112.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-VFKJ2SC9', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at VGP.Filter_US_Country.Clear(Filter_US_Country.java:24)
+
