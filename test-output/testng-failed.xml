@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="VGP.AddEmployee">
+      <class name="VGP.ViewEmployeeList">
         <methods>
-          <include name="AddEmployee" invocation-numbers="0"/>
+          <include name="viewEmployeeList"/>
         </methods>
-      </class> <!-- VGP.AddEmployee -->
+      </class> <!-- VGP.ViewEmployeeList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
